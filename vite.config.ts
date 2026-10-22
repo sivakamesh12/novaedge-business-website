@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/novaedge-business-website/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
